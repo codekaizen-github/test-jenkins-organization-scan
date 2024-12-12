@@ -1,9 +1,9 @@
 pipeline {
     agent any // Use any available agent
     stages {
-        stage('Hello') {
+        stage('Deploy') {
             steps {
-                echo 'Hello, World!'
+                echo 'Hello from Deploy!'
             }
         }
     }
